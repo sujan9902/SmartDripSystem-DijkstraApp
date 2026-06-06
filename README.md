@@ -58,7 +58,7 @@ The system uses **Dijkstra's Algorithm** to calculate the shortest path between 
 | Vite               | Build Tool & Development Server |
 | JavaScript (ES6+)  | Application Logic               |
 | HTML5              | Structure                       |
-| CSS3               | Styling                         |
+| Tailwind CSS & CSS3| Styling & Custom Animations     |
 | ESLint             | Code Quality                    |
 | Dijkstra Algorithm | Route Optimization              |
 
@@ -72,12 +72,12 @@ SmartDripSystem-DijkstraApp/
 ├── public/
 │
 ├── src/
-│   ├── components/
-│   ├── pages/
 │   ├── algorithms/
-│   │   └── dijkstra.js
+│   │   └── pathfinding.js
 │   ├── assets/
+│   ├── App.css
 │   ├── App.jsx
+│   ├── index.css
 │   └── main.jsx
 │
 ├── package.json
@@ -150,7 +150,7 @@ This project uses **React with Vite** for a fast and modern development experien
 
 This project can use either:
 
-* `@vitejs/plugin-react` (Oxc-based)
+* `@vitejs/plugin-react` (Babel-based)
 * `@vitejs/plugin-react-swc` (SWC-based)
 
 Both provide fast refresh and optimized React support.
